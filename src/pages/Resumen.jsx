@@ -21,7 +21,7 @@ const Resumen = () => {
               <div key={producto.id} className="flex flex-col md:flex-row lg:justify-between items-center gap-3 border-b-2 border-dashed border-gray-400 last-of-type:border-none py-2 p-1">
                   <div className="flex">
                   <div className="w-2/6 md:w-1/6">
-                      <img src={`../../src/assets/${producto.imagen}`} alt={producto.nombre}/>
+                      <img src={`../../public/productos/${producto.imagen}`} alt={producto.nombre}/>
                   </div>
                   <div className="w-5/6 lg:w-4/6 flex items-center font-bold text-md lg:text-lg ">
                       <p>{producto.nombre}</p>
