@@ -5,7 +5,7 @@ import logo from '../assets/logoHeader.jpg'
 
 const Footer = () => {
   return (
-    <footer className='bg-gray-100  p-2 md:items-center md:p-10 flex flex-col md:flex-row gap-5 justify-center items-center md:justify-around mb-14'>
+    <footer className='bg-gray-100  p-2 md:items-center md:p-10 flex flex-col md:flex-row gap-5 justify-center items-center md:justify-around pb-14'>
       
       <img src={logo} alt="logo maya pet shop"  className='w-10 md:w-14 flex justify-center'/>
 
