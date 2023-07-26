@@ -3,6 +3,7 @@ import { useCart } from "../context/CartProvider"
 const CardItem = ({articulo}) => {
 
     const {agregarCarrito, carrito} = useCart()
+
     const onCart = carrito.some(item => item.id === articulo.id)
   return (
     <div className='bg-white rounded-lg hover:shadow-lg hover:scale-105 transition-all duration-300'>

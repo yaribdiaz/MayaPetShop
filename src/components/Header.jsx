@@ -12,12 +12,14 @@ const Header = () => {
     const handleMenu = () => setNavbar(!navbar)
 
     return (
-        <div className="">
+        <div>
             <div  className={`items-center justify-between  bg-gray-100 flex p-5 border-b`}>
             
-                <div className="flex flex-row">
-                <img src={logo} className="w-10 mr-3"/>
-                <img src={titleStore} className="w-16"/>
+                <div className="">
+                <Link to={'/'} className="flex flex-row">
+                    <img src={logo} className="w-10 mr-3"/>
+                    <img src={titleStore} className="w-16"/>
+                </Link>
                 </div>
 
                 <div className='hidden lg:flex gap-10'>
@@ -43,12 +45,12 @@ const Header = () => {
                 </div>
                 
             </div>
-            <div className={`${!navbar ? 'opacity-0'  : 'opacity-100' } absolute opacity-100 bg-gray-100 rounded-b-2xl  w-full transition-all duration-700`}>
-                    <div className={`${!navbar ? 'hidden'  : 'visible '}   `}>
-                    <Link to={'/'} onClick={handleMenu} className={` ${pathname === '/' ? 'bg-gray-700 text-white ' : ' '}' border-b flex justify-center '  `}>Inicio  </Link>
-                    <Link to={'nosotros'} onClick={handleMenu} className={` ${pathname === '/nosotros' ? 'bg-gray-700 text-white ' : ' '}' border-b  flex justify-center '  `}>Nosotros</Link>
-                    <Link to={'ubicacion'} onClick={handleMenu} className={` ${pathname === '/ubicacion' ? `bg-gray-700 text-white ` : ' '}' border-b  flex justify-center '  `}>Ubicación </Link>
-                    <Link to={'catalogo'} onClick={handleMenu} className={` ${pathname.includes('/catalogo') ? 'bg-gray-700 text-white ' : ' '}'  flex justify-center '`}>Productos</Link>
+            <div className={`${!navbar ? 'opacity-0'  : 'opacity-100' } absolute z-20 opacity-100 bg-gray-100 rounded-b-2xl  w-full transition-all duration-700`}>
+                    <div className={`${!navbar ? 'hidden'  : 'visible '}  transition-all `}>
+                    <Link to={'/'} onClick={handleMenu} className={` ${pathname === '/' ? 'bg-gray-700 text-white ' : ' '}' border-b flex justify-center py-2 '  `}>Inicio  </Link>
+                    <Link to={'nosotros'} onClick={handleMenu} className={` ${pathname === '/nosotros' ? 'bg-gray-700 text-white ' : ' '}' border-b  flex justify-center py-2 '  `}>Nosotros</Link>
+                    <Link to={'ubicacion'} onClick={handleMenu} className={` ${pathname === '/ubicacion' ? `bg-gray-700 text-white ` : ' '}' border-b  flex justify-center py-2 '  `}>Ubicación </Link>
+                    <Link to={'catalogo'} onClick={handleMenu} className={` ${pathname.includes('/catalogo') ? 'bg-gray-700 text-white ' : ' '}'  flex justify-center py-2 '`}>Productos</Link>
                     </div>
             </div>
              

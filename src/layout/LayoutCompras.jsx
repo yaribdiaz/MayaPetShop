@@ -10,7 +10,7 @@ const LayoutCompras = () => {
 
   return (
     <div>
-        <div className="bg-black py-3">
+        <div className="bg-black py-3 sticky top-0 z-10">
             <div className="text-white flex justify-between px-4">
                 <Link to={'/catalogo'} className={`${pathname === "/catalogo" ? 'bg-blue-500' : ''} py-1 px-2 rounded`}>
                     Productos 

@@ -15,7 +15,6 @@ const CartProvider = ({children}) => {
       const pedidoWhatsapp = () => {
         const chain = carrito.map (articulo => `%0A •${articulo.cantidad} ${articulo.nombre} `)
         const convertURL = chain.toString().replace(/\s/g, "%20")
-        console.log(convertURL)
         setWhatsapp(convertURL)
       }
       pedidoWhatsapp()
@@ -28,10 +27,10 @@ const CartProvider = ({children}) => {
           // Iterar para actualizar la cantidad
           const carritoActualizado = carrito.map( guitarraState => {
               if( guitarraState.id === guitarra.id ) {
-                  guitarraState.cantidad = guitarra.cantidad;
+                  console.log('')
               } 
               return guitarraState;
-          });
+          })
           // Se asigna al array
           setCarrito([...carritoActualizado]);
           localStorage.setItem('carrito', JSON.stringify( carrito ));
@@ -59,6 +58,11 @@ const CartProvider = ({children}) => {
     window.localStorage.setItem('carrito', JSON.stringify( carrito ));
     }
 
+    const limpiarCarrito = () => {
+        setCarrito([])
+        localStorage.setItem('carrito', JSON.stringify(carrito))
+    }
+
     return(
         <CartContext.Provider
             value={{
@@ -66,6 +70,7 @@ const CartProvider = ({children}) => {
                 agregarCarrito,
                 eliminarProducto,
                 actualizarCantidad,
+                limpiarCarrito,
                 whatsapp
             }}
         >
