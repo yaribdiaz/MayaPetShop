@@ -20,7 +20,7 @@ const CardItem = ({articulo}) => {
         )
         }
       </div>
-            <img src={`./../public/productos/${articulo.imagen}`} alt={articulo.nombre}  className="p-3"/>
+            <img src={`./productos/${articulo.imagen}`} alt={articulo.nombre}  className="p-3"/>
             <p className="border-t-2 pt-3 font-bold text-center lg:text-xl">{articulo.nombre}</p>
                 <button 
                 onClick={() => {
