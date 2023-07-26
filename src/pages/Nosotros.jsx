@@ -13,7 +13,7 @@ const Nosotros = () => {
           
           <div className='md:4/6 mt-10 md:mt-0 md:p-10 md:border-l border-white/[0.40]'>
           <h2 className='font-bold text-2xl md:text-3xl text-[white]'>DISTRIBUIDORA MAYA</h2>
-            <div className=' md:text-xl break-words tracking-wide space-y-4'>
+            <div className='text-lg md:text-xl break-words tracking-wide space-y-4'>
               <p className='mt-5 '>
                 Para Maya Pet Shop, la salud y bienestar de tu mascota es lo más importante. Nos esforzamos día a día por dar la mejor experiencia y servicio a los pet lovers y para que a sus perrihijos nunca les falte nada, contamos con una gran variedad de alimentos para cada necesidad y al alcance de todos. 
               </p>
