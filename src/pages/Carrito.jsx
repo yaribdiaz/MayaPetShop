@@ -11,7 +11,7 @@ const Carrito = () => {
         <p className='uppercase text-xl font-bold border-b w-full text-center border-black border-dashed'>Enviar Pedido</p>
         <p className='border-gray-400 border border-dashed p-1 mt-10 lg:mt-5 lg:w-3/5 text-center'>Este pedido será enviado por whatsapp para completarlo, acordar el domicilio de entrega, método de pago, etc...</p>
         <a 
-          href={`https://wa.me/7721066182?text=${whatsapp}`}
+          href={`https://wa.me/7711143978?text=${whatsapp}`}
           className={`${carrito.length === 0 ? 'bg-gray-400 pointer-events-none' : 'bg-green-500 hover:bg-green-600 hover:scale-105'}  flex gap-3 mt-7 p-2 lg:p-4 font-bold rounded    text-white border-double transition-all duration-300`}
         >
           Enviar por Whatsapp 
