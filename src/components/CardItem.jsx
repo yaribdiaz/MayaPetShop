@@ -1,4 +1,4 @@
-import { useCart } from "../context/CartProvider"
+import useCart from "../hooks/useCart"
 
 const CardItem = ({articulo}) => {
 

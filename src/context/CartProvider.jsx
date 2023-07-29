@@ -1,4 +1,4 @@
-import { useState, useEffect, createContext, useContext } from "react";
+import { useState, useEffect, createContext} from "react";
 
 const CartContext = createContext()
 
@@ -9,6 +9,7 @@ const CartProvider = ({children}) => {
   
     const [carrito, setCarrito] = useState(carritoLS)
     const [whatsapp, setWhatsapp]= useState('')
+    const [search, setSearch] = useState('')
   
     useEffect(()=> {
       localStorage.setItem('carrito', JSON.stringify(carrito))
@@ -71,7 +72,9 @@ const CartProvider = ({children}) => {
                 eliminarProducto,
                 actualizarCantidad,
                 limpiarCarrito,
-                whatsapp
+                whatsapp,
+                setSearch,
+                search
             }}
         >
             {children}
@@ -80,4 +83,4 @@ const CartProvider = ({children}) => {
 }
 
 export {CartProvider}
-export const useCart = () => useContext(CartContext)
+export default CartContext
