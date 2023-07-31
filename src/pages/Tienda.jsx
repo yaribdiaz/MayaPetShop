@@ -20,7 +20,7 @@ const Tienda = () => {
         <SearchBar/>
         <p className='border-white text-white border-2 bg-blue-400 border-dashed p-1 lg:w-3/5 text-center'>Este pedido será enviado por whatsapp para completarlo, acordar el domicilio de entrega, método de pago, etc...</p>
         <p className="text-2xl font-bold"></p>
-        <div className="mt-5 lg:mt-10 grid sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-4 gap-5">
+        <div className="mt-5 lg:mt-10 grid grid-cols-1  md:grid-cols-3 lg:grid-cols-4 gap-5">
         
         {
           !results && products 

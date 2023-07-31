@@ -3,77 +3,77 @@ export const PRODUCTOS = [
         id:1,
         nombre: 'Ganador Premium Adulto - Razas Medianas y Grandes',
         descripcion: '',
-        contenido: 20,
-        imagen: 'GanadorPremiumAdultoRazaMedianaGrande.jpg'
+        contenido: '20 kg',
+        imagen: 'GanadorPremiumAdulto.webp'
     },
     {
         id:2,
         nombre: 'Ganador Premium Adulto - Razas Pequeñas',
         descripcion: '',
-        contenido: 20,
-        imagen: 'GanadorPremiumAdultoRazaPequena.jpg'
+        contenido: '20 kg',
+        imagen: 'GanadorPremiumAdultoRazaPeq.webp'
     },
     {
         id:3,
         nombre: 'Ganador Premium Cachorro - Razas Medianas y Grandes',
         descripcion: '',
-        contenido: 20,
-        imagen: 'GanadorPremiumCachorroRazaGrande.jpg'
+        contenido: '20 kg',
+        imagen: 'GanadorPremiumCachorro.webp'
     },
     {
         id:4,
         nombre: 'Ganador Premium Cachorro - Razas Pequeñas',
         descripcion: '',
-        contenido: 20,
-        imagen: 'GanadorPremiumCachorroRazaPequena.jpg'
+        contenido: '20 kg',
+        imagen: 'GanadorCachorro.webp'
     },
     {
         id:5,
         nombre: 'Ganador Adulto - Razas Medianas y Grandes',
         descripcion: '',
-        contenido: 25,
-        imagen: 'GanadorAdulto.jpg'
+        contenido: '25 kg',
+        imagen: 'GanadorOriginalAdulto.webp'
     },
     {
         id:6,
         nombre: 'Ganador Adulto - Razas Pequeñas',
         descripcion: '',
-        contenido: 20,
-        imagen: 'GanadorAdultoRazaPequena.jpg'
+        contenido: '20 kg',
+        imagen: 'GanadorAdultoRazasPequenas.webp'
     },
     {
         id:7,
         nombre: 'Ganador Cachorro - Todas las Razas',
         descripcion: '',
-        contenido: 20,
-        imagen: 'GanadorCachorro.jpg'
+        contenido: '20 kg',
+        imagen: 'GanadorOriginalCachorro.webp'
     },
     {
         id:8,
         nombre: 'Minino - Alimento para Gatos',
         descripcion: 15,
         contenido: '15kg',
-        imagen: 'Minino.jpg'
+        imagen: 'minino.webp'
     },
     {
         id:11,
         nombre: 'Minino Plus- Alimento para Gatos',
         descripcion: '',
-        contenido: 10,
+        contenido: '10 kg',
         imagen: 'MininoPlus.jpg'
     },
     {
         id:9,
         nombre: 'Perron Adultos - Todas las Razas y Tamaños ',
         descripcion: '',
-        contenido: 25,
+        contenido: '25 kg',
         imagen: 'PerronAdulto.webp'
     },
     {
         id:10,
         nombre: 'Perron Cachorros - Todas las Razas y Tamaños',
         descripcion: '',
-        contenido: 20,
+        contenido: '20 kg',
         imagen: 'PerronCachorro.webp'
     },
     // {
@@ -108,63 +108,63 @@ export const PRODUCTOS = [
         id:15,
         nombre: 'Cat Chow Adultos - Alimento para Gatos',
         descripcion: '',
-        contenido: '',
+        contenido: '3 kg',
         imagen: 'CatChow.webp'
     },
     {
         id:16,
         nombre: 'Gatina Sabor Pollo - Alimento para Gatos',
         descripcion: '',
-        contenido: 15,
+        contenido: '15 kg',
         imagen: 'Gatina.webp'
     },
     {
         id:17,
         nombre: 'Chapetes Adulto - Alimento para Perros',
         descripcion: '',
-        contenido: 20,
+        contenido: '20 kg',
         imagen: 'ChapetesPet.webp'
     },
     {
         id:18,
         nombre: 'Chapetes Adulto - Alimentos para Gatos',
         descripcion: '',
-        contenido: 15,
+        contenido: '15 kg',
         imagen: 'ChapetesPetGato.webp'
     },
     {
         id:19,
         nombre: 'MI BOOB - Alimento para Perros',
         descripcion: '',
-        contenido: 20,
+        contenido: '20 kg',
         imagen: 'MiBoob.webp'
     },
     {
         id:20,
         nombre: 'Silver Kan Cachorro - Todo Tipo de Razas',
         descripcion: '',
-        contenido: 20,
+        contenido: '20 kg',
         imagen: 'SilverKanCachorro.png'
     },
     {
         id:21,
         nombre: 'Silver Cat - Alimento para Gatos',
         descripcion: '',
-        contenido: 15,
+        contenido: '15 kg',
         imagen: 'SilverCat.png'
     },
     {
         id:22,
         nombre: 'Beriscan Pro - Adultos',
         descripcion: '',
-        contenido: 25,
+        contenido: '25 kg',
         imagen: 'BeriscanProAdulto.webp'
     },
     {
         id:23,
         nombre: 'Beriscan Pro - Cachorros',
         descripcion: '',
-        contenido: 20,
+        contenido: '20 kg',
         imagen: 'BeriscanProCachorro.webp'
     },
     // {
@@ -192,28 +192,28 @@ export const PRODUCTOS = [
         id:27,
         nombre: 'Dyno Adultos - Alimento para Perros',
         descripcion: '',
-        contenido: 25,
+        contenido: '25 kg',
         imagen: 'Dyno.jpg'
     },
     {
         id:28,
         nombre: 'Pedigree Adulto',
         descripcion: '',
-        contenido: '',
+        contenido: '?',
         imagen: 'PedigreeAdulto.jpg'
     },
     {
         id:29,
         nombre: 'Pedigree Adulto - Razas Pequeñas',
         descripcion: '',
-        contenido: '',
+        contenido: '?',
         imagen: 'PedigreeAdultoRazaPeq.jpg'
     },
     {
         id:30,
         nombre: 'Pedigree Cachorro',
         descripcion: '',
-        contenido: '',
+        contenido: '?',
         imagen: 'PedigreeCachorro.avif'
     },
     // {
@@ -227,14 +227,14 @@ export const PRODUCTOS = [
         id:32,
         nombre: 'PAL Perro - Adulto Todas las Razas',
         descripcion: '',
-        contenido: 20,
+        contenido: '20 kg',
         imagen: 'PalPerro.jpg'
     },
     {
         id:33,
         nombre: 'Whiskas Original Carne de Res',
         descripcion: '',
-        contenido: 20,
+        contenido: '20 kg',
         imagen: 'WhiskasAdultoRecetaOriginal.webp'
     },
     // {
@@ -248,7 +248,7 @@ export const PRODUCTOS = [
         id:35,
         nombre: 'PAL Gato',
         descripcion: '',
-        contenido: 12,
+        contenido: '12 kg',
         imagen: 'PalGato.webp'
     },
     // {
@@ -283,7 +283,7 @@ export const PRODUCTOS = [
         id:40,
         nombre: 'Alfa Cat - Arena Premium para Gato',
         descripcion: '',
-        contenido: 6,
+        contenido: '6 kg',
         imagen: 'AlfaCatArenaGato.jpg'
     },
     // {
