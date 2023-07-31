@@ -22,9 +22,9 @@ const CardItem = ({articulo}) => {
         }
       </div>
             <div className="flex justify-end mb-[-35px] z-10 mt-3">
-              <p className="text-xs bg-blue-500 text-white font-bold py-1 px-2 rounded-full">{`${articulo.contenido}`}</p>
+              <p className="text-xs lg:text-sm bg-blue-500 text-white font-bold py-1 px-2 rounded-full">{`${articulo.contenido}`}</p>
             </div>
-            <img src={`./productos/${articulo.imagen}`} alt={articulo.nombre}  className="p-3"/>
+            <img src={`./productos/${articulo.imagen}`} alt={articulo.nombre}  className="p-3 max-h-[450px] max-w-[350px]"/>
             <p className="border-t-2 pt-3 font-bold text-center lg:text-xl">{articulo.nombre}</p>
                 <button 
                 onClick={() => {

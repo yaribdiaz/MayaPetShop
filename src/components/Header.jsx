@@ -45,7 +45,7 @@ const Header = () => {
                 </div>
                 
             </div>
-            <div className={`${!navbar ? 'opacity-0'  : 'opacity-100' } absolute z-20 opacity-100 bg-gray-100 rounded-b-2xl  w-full transition-all duration-700`}>
+            <div className={`${!navbar ? 'opacity-0'  : 'opacity-100' } absolute z-30 opacity-100 bg-gray-100 rounded-b-2xl  w-full transition-all duration-700`}>
                     <div className={`${!navbar ? 'hidden'  : 'visible '}  transition-all `}>
                     <Link to={'/'} onClick={handleMenu} className={` ${pathname === '/' ? 'bg-gray-700 text-white ' : ' '}' border-b flex justify-center py-2 '  `}>Inicio  </Link>
                     <Link to={'nosotros'} onClick={handleMenu} className={` ${pathname === '/nosotros' ? 'bg-gray-700 text-white ' : ' '}' border-b  flex justify-center py-2 '  `}>Nosotros</Link>
