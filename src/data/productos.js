@@ -108,7 +108,7 @@ export const PRODUCTOS = [
         id:15,
         nombre: 'Cat Chow Adultos - Alimento para Gatos',
         descripcion: '',
-        contenido: '3 kg',
+        contenido: '20 kg',
         imagen: 'CatChow.webp'
     },
     {
@@ -251,34 +251,6 @@ export const PRODUCTOS = [
         contenido: '12 kg',
         imagen: 'PalGato.webp'
     },
-    // {
-    //     id:36,
-    //     nombre: 'NUPEC Adulto',
-    //     descripcion: '',
-    //     contenido: '',
-    //     imagen: 'NupecAdulto.webp'
-    // },
-    // {
-    //     id:37,
-    //     nombre: 'NUPEC Cachorro',
-    //     descripcion: '',
-    //     contenido: '',
-    //     imagen: 'NupecCachorro.webp'
-    // },
-    // {
-    //     id:38,
-    //     nombre: 'NUPEC Adulto - Raza Pequeña',
-    //     descripcion: '',
-    //     contenido: '',
-    //     imagen: 'NupecAdultoRazaPequena.webp'
-    // },
-    // {
-    //     id:39,
-    //     nombre: 'NUPEC Cachorro - Raza Pequeña',
-    //     descripcion: '',
-    //     contenido: '',
-    //     imagen: 'NupecCachorroRazaPequena.webp'
-    // },
     {
         id:40,
         nombre: 'Alfa Cat - Arena Premium para Gato',
@@ -286,12 +258,4 @@ export const PRODUCTOS = [
         contenido: '6 kg',
         imagen: 'AlfaCatArenaGato.jpg'
     },
-    // {
-    //     id:41,
-    //     nombre: '',
-    //     descripcion: '',
-    //     contenido: '',
-    //     imagen: ''
-    // },
-
 ]
