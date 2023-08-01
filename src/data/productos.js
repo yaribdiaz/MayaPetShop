@@ -122,7 +122,7 @@ export const PRODUCTOS = [
         id:17,
         nombre: 'Chapetes Adulto - Alimento para Perros',
         descripcion: '',
-        contenido: '20 kg',
+        contenido: '25 kg',
         imagen: 'ChapetesPet.webp'
     },
     {
