@@ -101,7 +101,7 @@ export const PRODUCTOS = [
         id:14,
         nombre: 'Dog Chow Cachorros - Minis y Pequeños',
         descripcion: '',
-        contenido: '20',
+        contenido: '20 kg',
         imagen: 'DogChowCachorroRzaPeq.webp'
     },
     {
