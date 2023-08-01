@@ -87,21 +87,21 @@ export const PRODUCTOS = [
         id:12,
         nombre: 'Dog Chow Adultos - Medianos y Grandes',
         descripcion: '',
-        contenido: '?',
+        contenido: '25 kg',
         imagen: 'DogChowAdulto.webp'
     },
     {
         id:13,
         nombre: 'Dog Chow Adultos - Minis y Pequeños',
         descripcion: '',
-        contenido: '?',
+        contenido: '25 kg',
         imagen: 'DogChowAdultoRazaPequena.webp'
     },
     {
         id:14,
         nombre: 'Dog Chow Cachorros - Minis y Pequeños',
         descripcion: '',
-        contenido: '?',
+        contenido: '20',
         imagen: 'DogChowCachorroRzaPeq.webp'
     },
     {
@@ -199,21 +199,21 @@ export const PRODUCTOS = [
         id:28,
         nombre: 'Pedigree Adulto',
         descripcion: '',
-        contenido: '?',
+        contenido: '20 kg',
         imagen: 'PedigreeAdulto.jpg'
     },
     {
         id:29,
         nombre: 'Pedigree Adulto - Razas Pequeñas',
         descripcion: '',
-        contenido: '?',
+        contenido: '20 kg',
         imagen: 'PedigreeAdultoRazaPeq.jpg'
     },
     {
         id:30,
         nombre: 'Pedigree Cachorro',
         descripcion: '',
-        contenido: '?',
+        contenido: '20 kg',
         imagen: 'PedigreeCachorro.avif'
     },
     // {
