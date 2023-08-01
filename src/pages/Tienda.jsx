@@ -7,7 +7,7 @@ const Tienda = () => {
 
   const {search} = useCart()
   const products=PRODUCTOS.map(articulo => {
-    if(articulo.nombre.toLowerCase().includes(search.toLowerCase())){
+    if(articulo.nombre.toLowerCase().includes(search.toLowerCase().trim())){
     return <CardItem articulo={articulo} key={articulo.id}/>
     }else{
       return null
