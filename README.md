@@ -16,8 +16,6 @@ src/
 
 |--data/
    |--productos.js
-   |--...
-
 ```
 
 
