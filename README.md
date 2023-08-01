@@ -11,12 +11,14 @@
 ## Productos
 - Ruta de información acerca de los productos
 
-    |
-    |- src
-        |
-        |- data
-            |
-            |- productos
+```js
+src/
+
+|--data/
+   |--productos.js
+   |--...
+
+```
 
 
 
